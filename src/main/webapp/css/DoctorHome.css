@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(..//images/capsule-cure-dosage-dose.jpg);
+}
+nav{
+    height: 40px;
+   width: 100%;
+    position: absolute;
+    top: 0;
+   background: #0d04049e;
+
+}
+nav a{
+    color: #fff;
+    /* font-size: 30px;  */
+    font-weight:300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 10px;
+    text-shadow:black 4px 0px 12px ;
+    
+    word-spacing: 50px;
+    left: 55%;
+
+}
+nav a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 40%;
+    transform: translateX(-50%);
+    background: #ffff;
+    transition: 0.3s;
+}
+div nav a:hover::after{
+    width: 70%;
+    
+}
+
+#logo1{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    height: 40px;
+    z-index: 1;
+    border-radius: 50%;
+
+}
+#login{
+    position: absolute;
+    left: 610px;
+}
+a #home{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 1;
+
+}
+
+a #home{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    z-index: 2;
+    transform-origin: 0 80px ;
+    font-size: 20px;
+    /* writing-mode: vertical-lr; */
+    color: rgb(235, 231, 231);
+    /* text-orientation: upright;
+    font-stretch:extra-condensed; */
+    
+
+}
+a #home::after{ 
+content: '';
+width: 0%;
+height: 3px;
+position: absolute;
+bottom: -5px;
+left: 40%;
+transform: translateX(-50%);
+background: #ffff;
+transition: 0.3s;
+}
+a #home:hover::after{
+    width: 70%; width: 70%;
+}
+/* .paragraph{
+   position: relative;
+   
+} */
+p{  
+    height: 500px;
+    width: 300px;
+    overflow: auto;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    /* z-index: 1; */
+    font-size: 30px;
+    /* background-image: url(../images/abstract-blue-medical-background-vector_1035-14294\ -\ Copy.avif); */
+    background:none;
+    background-repeat: no-repeat fit-content;
+    text-justify:newspaper;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(0, 9, 10, 0.678);
+    font-weight: bolder;
+    
+}
+p::first-letter{
+    font-size: 90px;
+    color: red;
+    /* padding-left: 50px; */
+}
+h1{ 
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    color: rgb(246, 34, 218);
+ 
+}

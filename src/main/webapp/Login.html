@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+
+<style>
+body {
+	background-image: url(./images/Dwaaaa.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#qq {
+	height: 150px;
+	width: 250px;
+	position: relative;
+	left: 200px;
+	top: 200px;
+}
+
+button {
+	height: 30px;
+	width: 70px;
+	border-radius: 9px;
+	cursor: grab;
+}
+
+#jj {
+	position: relative;
+	left: 95px;
+	top: 10px;
+}
+
+input {
+	height: 25px;
+	width: 230px;
+	border-radius: 8px;
+}
+
+#ii:hover {
+	transition-property: all;
+	transition-duration: 5s;
+	transition-delay: 50ms;
+	background-color: rgb(60, 255, 0);
+	box-shadow: #11cbec 1px 2px 5px 5px;
+	cursor: cell;
+}
+
+#i2:hover {
+	background-color: rgb(60, 255, 0);
+	box-shadow: #11cbec 1px 2px 5px 5px;
+	transition-property: all;
+	transition-duration: 5s;
+	transition-delay: 50ms;
+	cursor: cell;
+}
+</style>
+</head>
+<body>
+	<div id="qq">
+
+		<form action="login" method="post">
+			
+			<input type="text" name="id" placeholder="Id" id="ii" autocomplete="on"> <br>
+			<br> <input type="text" name="password" placeholder="password" id="i2" autocomplete="off"> 
+			<a href="ForgetPassword.html" >Forgot password?</a>
+			<p style="color: #393f81;">
+				Don't have an account? <a href="selectRole.html"
+					style="color: #393f81;">Register here</a>
+			</p>
+
+			<div id="jj">
+
+				<button type="reset" id="btn1">reset</button>
+
+				<a href=""><button type="submit">login</button></a>
+
+			</div>
+		</form>
+		<a href="Home.html"><button id="btn3">Home</button></a>
+	</div>
+
+
+</body>
+</html>

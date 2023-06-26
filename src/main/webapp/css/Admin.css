@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+	fixed:fixed;
+}
+#div{
+   z-index: 2;
+   
+    /* border: 10px; */
+    /* background-color: rgb(217, 183, 222); */
+    /* border-radius: 9px; */
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    border-radius: 130px 0px 0px 150px;
+    background: #30d29ce3;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    align-items: center;
+    justify-content:end;
+    width: 400px;
+}
+.bt{
+    /* width: 150px;
+    height: 40px; */
+    z-index:1;
+    border: 1px solid #3498db;
+    background: none;
+    font-size: 15px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 20px;
+    transition: .8s;
+    position: relative;
+    top: 10px;
+    overflow: hidden;
+    
+}
+
+.bt1,.bt2{
+   color: #000000;
+
+}
+.bt3,.bt4{
+   color: #f0f0f0 ;
+}
+
+.bt1:hover,.bt2:hover{
+
+ color: #fff; 
+}
+.bt3:hover,.bt4:hover{
+
+   color: #050607 ;
+  }
+
+ .bt::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height:0%;
+    background: #2fadf6;
+    z-index: -1;
+    transition: .8s;
+  }
+
+.bt1::before,.bt3::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+
+  }
+
+.bt2::before,.bt4::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+
+  }
+ 
+.bt3::before,.bt4::before{
+  height: 180%;
+  /* background: #3498db; */
+  }
+
+.bt1:hover::before,.bt2:hover::before{
+    height: 180%;
+ }
+.bt3:hover::before,.bt4:hover::before{
+    height: 0%;
+
+ }
+img{
+
+    margin: 0%;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    /* z-index: -5; */
+    /* opacity: 0.5; */
+}

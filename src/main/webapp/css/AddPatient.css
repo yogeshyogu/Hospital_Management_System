@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+form{
+    height: 30vh;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: ;
+    
+}
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Doctor Signup</title>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body{
+		background-image: url(images/biology-chemistry-wallpaper-preview.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	 }
+	 .wrapper{
+		height: 200px;
+		width: 400px;
+		position: relative;
+		left:10%;
+		top:200px;
+		border-radius: 2px;
+		background-color: aqua;
+	 }
+	 
+	 
+	 
+	
+</style>
+</head>
+<body>
+
+	<div class="wrapper">
+		
+		<form action="doctor" method="post">
+			<table>
+				<tr>
+					<th><input type="text" name="name" placeholder="name">
+					</th>
+				</tr>
+				<tr>
+					<th><input type="text" name="email" placeholder="email" >
+					</th>
+				</tr>
+				<tr>
+					<th><input type="text" name="pass" placeholder="password">
+					</th>
+
+				</tr>
+				<tr>
+					<th><input type="date" name="dob" placeholder="Date-of-birth">
+					</th>
+				</tr>
+
+				<tr>
+					<th><input type="mobile" name="mobile" pattern="{0-9}[10]"
+						placeholder="phone"></th>
+				</tr>
+				<tr>
+					<th><input type="text" name="speacialization"
+						placeholder="specialtization"></th>
+				</tr>
+
+				<tr>
+					<td><input type="radio" name="gender" id="ss" value="male">:male
+						<input type="radio" name="gender" id="ss" value="female">:Female
+					</td>
+				</tr>
+
+				<td>
+					<button>Reset</button> <a href="Login.html"><button>save</button></a>
+				</td>
+				</tr>
+
+			</table>
+		</form>
+	</div>
+</body>
+</html>
